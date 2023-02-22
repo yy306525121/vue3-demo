@@ -8,6 +8,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@yy306525121/form-create-designer": "^3.1.1",
+    "@yy306525121/form-create-element-ui": "^3.2.0",
     "core-js": "^3.6.5",
     "element-plus": "^2.2.29",
     "sass-loader": "^13.2.0",

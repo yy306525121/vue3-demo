@@ -3,10 +3,14 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 const routes = [
     {
         path: '/',
+        name: '表单设计',
+        component: () => import('@/views/Designer')
+    },
+    {
+        path: '/Preview',
         name: '表单展示',
         component: () => import('@/views/Preview')
     },
-
 ]
 
 
